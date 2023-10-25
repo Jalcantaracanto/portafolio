@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <Routes>
+    <Routes basename="/portafolio">
       <Route path="*" element={<App />} />
     </Routes>
   </BrowserRouter>
