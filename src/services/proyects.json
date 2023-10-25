@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Social Dojo",
+        "description": "Red social, donde puedes colocar post, imagenes, configurar tu perfil. Incluye socket con chat en tiempo real.",
+        "technology": ["MongoDB", "Express", "React", "NodeJS"],
+        "links": ["", "https://github.com/Jalcantaracanto/SocialDojo"]
+    },
+    {
+        "id": 2,
+        "name": "CuraumaSabor",
+        "description": "Tienda simulada de curauma Sabor, envia correos, al usuario admin se le permite agregar productos con imagenes y cambiar precios.",
+        "technology": ["MongoDB", "Express", "React", "NodeJS"],
+        "links": ["", "https://github.com/Jalcantaracanto/ecommerce-CuraumaSabor"]
+    },
+    {
+        "id": 3,
+        "name": "Clinica Dental",
+        "description": "Aplicacion de escritorio de clinica dental, ejercicio portafolio de titulo.",
+        "technology": ["Java", "Oracle DB"],
+        "links": ["", "https://github.com/Jalcantaracanto/ClinicaDental"]
+    }
+]

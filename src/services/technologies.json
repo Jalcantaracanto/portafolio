@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "alt": "css",
+        "icon": "/icons/Css Icon.png"
+    },
+    {
+        "id": 2,
+        "alt": "Express",
+        "icon": "icons/Express Icon.png"
+    },
+    {
+        "id": 3,
+        "alt": "Github",
+        "icon": "icons/Github Icon.png"
+    },
+    {
+        "id": 4,
+        "alt": "HTML",
+        "icon": "icons/HTML Icon.png"
+    },
+    {
+        "id": 5,
+        "alt": "Java",
+        "icon": "icons/Java Icon.png"
+    },
+    {
+        "id": 6,
+        "alt": "Javascript",
+        "icon": "icons/Javascript Icon.png"
+    },
+    {
+        "id": 7,
+        "alt": "Jira",
+        "icon": "icons/Jira Icon.png"
+    },
+    {
+        "id": 8,
+        "alt": "Java",
+        "icon": "icons/Base Icon.png"
+    },
+    {
+        "id": 9,
+        "alt": "Java",
+        "icon": "icons/Base Icon.png"
+    },
+    {
+        "id": 10,
+        "alt": "Java",
+        "icon": "icons/Base Icon.png"
+    }
+]

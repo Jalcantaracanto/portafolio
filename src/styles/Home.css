@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #346873;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-body {
+    background-color: var(--background);
+}
+
+[class*='col-'] {
+    float: left;
+    padding: 1rem;
+    /* border: 1px solid red; */
+}
+
+[class*='col-'] {
+    width: 100%;
+}
+
+.avatar-container {
+    text-align: center;
+}
+
+.avatar {
+    width: 6rem;
+}
+
+.aboutMe {
+    text-align: justify;
+}
+
+.card-name {
+    margin: 0 0 5px 5px;
+}
+
+.main-card {
+    width: 90%;
+    background-color: #002933;
+    border-radius: 1rem;
+
+    padding: 1rem;
+    text-align: justify;
+    overflow: hidden; /* Evita que el contenido se desborde */
+    height: 400px; /* Establece una altura fija para las main-card */
+    display: flex; /* Usa el modelo de caja flex */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    transition: height 0.3s ease; /* Agrega una transición suave para la altura */
+}
+
+.main-card.expanded {
+    height: auto; /* Cuando está expandida, permite que la altura sea automática */
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-description {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.icons-tech {
+    width: 4rem;
+    padding: 0.5rem;
+    height: auto;
+}
+
+.btn-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+}
+
+.btn-card {
+    width: 100px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: #346873;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-card:hover {
+    background-color: #232b2c;
+    color: #346873;
+    cursor: pointer;
+}
+
+.btn-show-more {
+    background: none;
+    border: none;
+    color: #346873;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.kvrXoZ {
+    /* Margen abajo de iconos re-paginacion*/
+    margin-bottom: 10px;
+}
+
+.main-contact {
+    background-color: #001b24;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+}
