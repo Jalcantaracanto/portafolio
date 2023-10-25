@@ -2,7 +2,7 @@
     "name": "portafolio",
     "version": "0.1.0",
     "private": false,
-    "homepage": "https://jalcantaracanto.github.io/",
+    "homepage": "https://jalcantaracanto.github.io/portafolio",
     "dependencies": {
         "@itseasy21/react-elastic-carousel": "^0.12.3",
         "@testing-library/jest-dom": "^5.17.0",
